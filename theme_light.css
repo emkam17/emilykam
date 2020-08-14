@@ -2,12 +2,8 @@ body {
   background-color: #ffffff;
   color: #1d1d1d;
   margin: 30px 220px;
-  /* font-family: "Century Gothic"; */
-  /* font-family: "Verdana"; */
   font-family: "Helvetica Neue";
   font-size: 16px;
-  /* font-weight: 100; */
-  /* padding-bottom: 30px; */
 }
 
 #index #header_id .index,
@@ -17,9 +13,6 @@ body {
 
 header {
   display: flex;
-  /* position: relative;
-  animation: mymove 2s;
-  animation-fill-mode: both; */
 }
 
 nav {
@@ -40,27 +33,13 @@ h1 {
   margin: 30px 0px;
   padding-top: 5px;
   font-family: "Perpetua";
-  /* font-family: "Century Gothic"; 
-  font-family: "Helvetica Neue"; */
   font-weight: 700;
-  /* font-weight: 100; */
-  /* font-weight: 400; */
   font-size: 34px;
   flex: 50%;
 }
 
-/* @keyframes mymove {
-  from {
-    top: 100px;
-  }
-  to {
-    top: 0px;
-  }
-} */
-
 h2 {
   font-family: "Perpetua";
-  /* font-family: "Helvetica Neue"; */
   font-size: 24px;
   font-weight: 600;
   margin-top: 20px;
@@ -68,7 +47,6 @@ h2 {
 
 h3 {
   font-family: "Perpetua";
-  /* font-family: "Helvetica Neue"; */
   font-size: 40px;
   color: #fe5f5b;
 }
@@ -83,7 +61,6 @@ a:visited {
 }
 
 a:hover {
-  /* color: #dbaf68; */
   color: #c0995b;
   text-decoration: underline;
 }
@@ -97,17 +74,14 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-  /* color: #dbaf68; */
   color: #c0995b;
 }
 
 .project_page a:link {
-  /* color: #dbaf68; */
   color: #c0995b;
 }
 
 .project_page a:visited {
-  /* color: #dbaf68; */
   color: #c0995b;
 }
 
@@ -129,23 +103,17 @@ button {
   margin-top: 20px;
   height: 50px;
   width: 160px;
-  /* color: #dbaf68; */
   color: #c0995b;
-  /* font-family: "Verdana";
-  font-family: "Helvetica Neue"; */
   font-family: "Century Gothic";
-  /* font-weight: bold; */
   font-size: 16px;
   text-decoration: none;
   background-color: white;
   border: 2px solid;
-  /* border-color: #dbaf68; */
   border-color: #c0995b;
   transition: 0.4s ease-in-out;
 }
 
 button:hover {
-  /* background-color: #dbaf68; */
   background-color: #c0995b;
   color: white;
   transition: 0.3s ease-in-out;
@@ -292,18 +260,6 @@ button:hover {
   box-shadow: 0px 0px 2px #969696;
 }
 
-#signin {
-  width: 50%;
-}
-
-#vue {
-  width: 50%;
-}
-
-#firebase {
-  width: 50%;
-}
-
 /* dandelion */
 .dan_logo {
   text-align: center;
@@ -349,9 +305,7 @@ button:hover {
 
 /* footer */
 .back {
-  /* font-size: 15px; */
   text-align: right;
-  /* margin-right: 60px; */
   font-family: "Century Gothic";
   margin-top: 60px;
 }
@@ -388,4 +342,128 @@ footer {
 .tag {
   text-align: center;
   font-size: 12px;
+}
+
+/* mobile version */
+@media (max-width: 600px) {
+  body {
+    margin: 30px 23px;
+  }
+  nav ul li {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  /* content */
+  .intro p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+
+  /* about */
+  .about img {
+    display: none;
+  }
+
+  .project-row {
+    display: inline-block;
+  }
+
+  .project-col-1 {
+    flex: none;
+    padding-right: 0px;
+  }
+
+  .project-col-2 {
+    flex: 1;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .project img {
+    height: 280px;
+    width: 430px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 25px;
+  }
+
+  button {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  /* project pages */
+  .gridrow {
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  .quarter {
+    width: 25%;
+    padding-right: 17px;
+  }
+
+  .quarter h2 {
+    font-size: 14px;
+  }
+
+  .quarter p {
+    font-size: 12px;
+  }
+
+  /* dandelion */
+  .dan-col-grid img {
+    width: 95%;
+    box-shadow: 0px 0px 2px #969696;
+  }
+
+  .dan-images {
+    display: inline-block;
+  }
+
+  .dan-images img {
+    width: 97%;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+
+  .dan-images p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  /* milstein */
+  .mil_img img {
+    width: 96%;
+  }
+
+  .mil-img-row {
+    display: inline-block;
+    justify-content: center;
+  }
+
+  .mil-img-col-3 {
+    flex: 3;
+  }
+
+  .mil-img-col img {
+    /* width: 95%; */
+    height: 340px;
+    width: 460px;
+    margin-right: 40px;
+    box-shadow: 0px 0px 2px #969696;
+  }
+
+  /* footer */
+  .back {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
 }
