@@ -347,7 +347,7 @@ footer {
 /* mobile version */
 @media (max-width: 600px) {
   body {
-    margin: 30px 23px;
+    margin: 10px 20px;
   }
   nav ul li {
     font-size: 14px;
@@ -362,10 +362,19 @@ footer {
   }
 
   /* about */
-  .about img {
-    display: none;
+  .about {
+    display: inline;
+    font-size: 14px;
   }
 
+  .about img {
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 200px;
+    border-radius: 200px;
+  }
+
+  /* index.html */
   .project-row {
     display: inline-block;
   }
@@ -378,13 +387,14 @@ footer {
   .project-col-2 {
     flex: 1;
     margin-left: 10px;
+    padding-left: 0px;
     margin-top: 10px;
     margin-right: 10px;
   }
 
   .project img {
-    height: 280px;
-    width: 430px;
+    height: 210px;
+    width: 330px;
     text-align: center;
     margin-bottom: 0px;
     margin-top: 25px;
@@ -451,9 +461,9 @@ footer {
 
   .mil-img-col img {
     /* width: 95%; */
-    height: 340px;
-    width: 460px;
-    margin-right: 40px;
+    height: 210px;
+    width: 330px;
+    margin: 0px 0px;
     box-shadow: 0px 0px 2px #969696;
   }
 
