@@ -2,7 +2,7 @@ body {
   background-color: #ffffff;
   color: #1d1d1d;
   margin: 30px 220px;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica";
   font-size: 16px;
 }
 
@@ -148,6 +148,13 @@ button:hover {
   border-radius: 20px;
 }
 
+.project #nitebite {
+  height: 320px;
+  width: 220px;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
 /* .project img:hover { */
 /* transition: 0.4s ease-in-out; */
 /* opacity: 0.6; */
@@ -163,8 +170,8 @@ button:hover {
 }
 
 .project_page h2 {
-  font-family: "Verdana";
-  font-family: "Helvetica Neue";
+  /* font-family: "Verdana"; */
+  font-family: "Helvetica";
   font-size: 18px;
   color: #414141;
 }
@@ -174,8 +181,8 @@ button:hover {
 }
 
 .project_content h2 {
-  font-family: "Verdana";
-  font-family: "Helvetica Neue";
+  /* font-family: "Verdana"; */
+  font-family: "Helvetica";
   font-weight: normal;
   font-size: 26px;
   color: #000000;
@@ -198,8 +205,8 @@ button:hover {
 }
 
 .quarter h2 {
-  font-family: "Verdana";
-  font-family: "Helvetica Neue";
+  /* font-family: "Verdana"; */
+  font-family: "Helvetica";
   font-size: 14px;
   color: #444444;
 }
