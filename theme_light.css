@@ -339,6 +339,10 @@ button:hover {
   display: inline-block;
 }
 
+#level {
+  height: 298px;
+}
+
 /* footer */
 .back {
   text-align: right;
