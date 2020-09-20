@@ -310,6 +310,35 @@ button:hover {
   margin-right: 20px;
 }
 
+/* nightbite */
+.nightbite_logo img {
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#quickstart {
+  width: 100%;
+}
+
+.nightbite {
+  margin-top: 50px;
+}
+
+.nightbite p {
+  color: #505050;
+  font-style: italic;
+  text-align: center;
+}
+
+.animate {
+  text-align: center;
+}
+
+.audio {
+  display: inline-block;
+}
+
 /* footer */
 .back {
   text-align: right;
