@@ -1,6 +1,8 @@
 body {
-  background-color: #ffffff;
-  color: #1d1d1d;
+  /* background-color: #ffffff; */
+  /* background-color: #f1f1f1; */
+  background-color: #f9f9f9;
+  color: #1a1a1a;
   margin: 30px 220px;
   font-family: "Helvetica";
   font-size: 16px;
@@ -12,37 +14,57 @@ body {
 }
 
 header {
-  display: flex;
+  /* display: flex; */
+  padding-top: 40px;
 }
 
 nav {
   display: flex;
   flex-direction: row-reverse;
-  margin-top: 18px;
+  margin-top: 8px;
   flex: 50%;
 }
 
 nav ul li {
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 30px;
   font-family: "Century Gothic";
 }
 
+.title-nav {
+  display: flex;
+}
+
+.intro p {
+  display: inline-block;
+  font-family: "Century Gothic";
+  font-size: 18px;
+  margin-right: 10px;
+  margin-bottom: 120px;
+  flex: 60%;
+  color: #333333;
+}
+
 h1 {
-  margin: 30px 0px;
+  margin: 20px 0px;
   padding-top: 5px;
-  font-family: "Perpetua";
-  font-weight: 700;
+  /* font-family: "Perpetua"; */
+  font-family: "Helvetica";
+  font-weight: 400;
   font-size: 34px;
   flex: 50%;
+  color: #c0995b;
 }
 
 h2 {
-  font-family: "Perpetua";
+  /* font-family: "Perpetua"; */
+  font-family: "Century Gothic";
+  /* font-family: "Helvetica"; */
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 20px;
+  color: #000000;
 }
 
 h3 {
@@ -86,14 +108,6 @@ nav ul li a:hover {
 }
 
 /* content */
-.intro p {
-  font-family: "Century Gothic";
-  font-size: 16px;
-  text-align: center;
-  margin-bottom: 55px;
-  flex: 60%;
-  color: #333333;
-}
 
 p {
   line-height: 1.7em;
@@ -107,8 +121,10 @@ button {
   font-family: "Century Gothic";
   font-size: 16px;
   text-decoration: none;
-  background-color: white;
+  /* background-color: white; */
+  background-color: #f9f9f9;
   border: 2px solid;
+  border-radius: 4pt;
   border-color: #c0995b;
   transition: 0.4s ease-in-out;
 }
@@ -123,6 +139,7 @@ button:hover {
   display: flex;
   /* transition: 0.5s ease-in-out;
   border-radius: 8px; */
+  padding-bottom: 60px;
 }
 
 .project-col-1 {
@@ -133,26 +150,46 @@ button:hover {
 .project-col-2 {
   flex: 1;
   padding-left: 20px;
-  /* margin-top: 30px; */
-  /* margin-top: 10px; */
   margin-right: 20px;
+  color: #505050;
 }
 
 .project img {
-  height: 320px;
-  width: 470px;
   /* box-shadow: 0px 5px 10px #969696; */
   transition: 0.5s ease-in-out;
-  /* margin-top: 10px; */
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
   border-radius: 20px;
+}
+
+.project #rapstudy-logo {
+  height: 200px;
+  width: 200px;
+  margin-left: 130px;
+}
+
+.project #casestudy {
+  height: 82%;
+  width: 70%;
+  margin-left: 70px;
+}
+
+.project #dande-desktop {
+  height: 82%;
+  width: 80%;
+  margin-left: 46px;
+}
+
+.project #milstein-desktop {
+  height: 82%;
+  width: 80%;
+  margin-left: 46px;
 }
 
 .project #nitebite {
   height: 320px;
   width: 220px;
   margin-left: 120px;
-  margin-bottom: 50px;
 }
 
 /* .project img:hover { */
@@ -191,6 +228,8 @@ button:hover {
 .project_content ul li {
   margin: 0 0 6px 0;
 }
+
+/* PAGES */
 
 .gridrow {
   display: flex;
@@ -241,6 +280,8 @@ button:hover {
 .about a:visited {
   color: #c0995b;
 }
+
+/* rapstudy */
 
 /* milstein */
 .mil_img img {
