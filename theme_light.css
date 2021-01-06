@@ -1,5 +1,4 @@
 body {
-  /* background-color: #ffffff; */
   background-color: #fdfdfd;
   color: #1a1a1a;
   margin: 30px 220px;
@@ -42,14 +41,15 @@ nav ul li {
   margin-right: 10px;
   margin-bottom: 120px;
   flex: 60%;
-  color: #333333;
+  color: #505050;
 }
 
 h1 {
   margin: 20px 0px;
   padding-top: 5px;
   /* font-family: "Perpetua"; */
-  font-family: "Helvetica";
+  /* font-family: "Helvetica"; */
+  font-family: "Century Gothic";
   font-weight: 400;
   font-size: 34px;
   flex: 50%;
@@ -87,11 +87,11 @@ a:hover {
 }
 
 nav ul li a:link {
-  color: #adadad;
+  color: #505050;
 }
 
 nav ul li a:visited {
-  color: #adadad;
+  color: #505050;
 }
 
 nav ul li a:hover {
@@ -303,8 +303,6 @@ button:hover {
 .about a:visited {
   color: #c0995b;
 }
-
-/* rapstudy */
 
 /* milstein */
 .mil_img img {
