@@ -171,6 +171,16 @@ button:hover {
   color: #505050;
 }
 
+.project-col-2 a {
+  color: #505050;
+  text-decoration: underline;
+}
+
+.project-col-2 a:hover {
+  color: #c0995b;
+  text-decoration: underline;
+}
+
 .project img {
   /* box-shadow: 0px 5px 10px #969696; */
   transition: 0.5s ease-in-out;
