@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Emily Kam's Portfolio" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Emily Kam</title>
-    
+
+    <!-- link to hamburger menu-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="icon" type="image/png" sizes="32x32" href="favicon2/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon2/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon2/favicon-16x16.png">
@@ -12,53 +17,67 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
-    <link href="theme_light.css" type="text/css" rel="stylesheet" />
+    <!-- <link href="theme_light.css" type="text/css" rel="stylesheet" /> -->
+    <link href="theme_green.css" type="text/css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+ 
   </head>
+  
   <body>
-    <header>
+    
+    <script src="scripts.js" type="text/javascript"></script>
+
+    
+    <header id="header_id">
       <div class="title-nav">
-        <div>
-          <h1><a href="index.html">Emily Kam</a></h1>
-        </div>
-        <nav>
-          <ul>
-            <li>
-              <a href="about.html">about</a>
-            </li>
-            <li>
-              <a href="index.html">projects</a>
-            </li>
-            <li>
-              <a href="https://www.behance.net/emilykam1" target="_blank">graphics</a>
-            </li>
-            <li>
-              <a href="EK-resume.pdf" target="_blank">resume</a>
-            </li>
-          </ul>
-        </nav>
-        <div>
-        </div>
-    </header>
+      <div class="name">
+        <h1><a href="index.html" id="name">Emily Kam</a></h1>
+      </div>
+      <nav class="nav">
+        <ul id="navLinks">
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a class="index" href="index.html">Work</a>
+          </li>
+          <li>
+            <a href="https://www.behance.net/emilykam1" target="_blank"
+              >Graphics</a
+            >
+          </li>
+          <li>
+            <a href="EK-resume.pdf" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
 
     <div class="project_page">
       <div class="dan_logo" >
         <img src="images/dandelion/dandelion_logo.png" alt="Dandelion logo" />
       </div>
       <div class=gridrow>
-        <div class="quarter1">
+        <div class="quarter">
         <h2>Timeline</h2>
         <p>June 2020 - August 2020</p>
       </div>
-      <div class="quarter1">
+      <div class="quarter">
         <h2>My Role</h2>
         <p>Team Lead, UX Designer</p>
       </div>
-      <div class="quarter2">
+      <div class="quarter">
         <h2>Team</h2>
         <p>Agnes Tang, Angelina Wang, Georgina Scoville, Jesse Hagy</p>
       </div>
-      <div class="quarter3">
+      <div class="quarter">
         <h2>Tools</h2>
         <p>Figma</p>
       </div>
@@ -154,9 +173,9 @@
       </ul>
     </div>
       
-      <div class="back">
+      <!-- <div class="back">
         <a href="index.html"><button>back to projects</button></a>
-      </div>
+      </div> -->
 
       <footer>
         <div class="links">
@@ -169,7 +188,7 @@
         </div>
 
         <div class="tag">
-          <p>Made by Emily Kam</p>
+          <p>&copy;2021 Made by Emily Kam</p>
         </div>
       </footer>
 

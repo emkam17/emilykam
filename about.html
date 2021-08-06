@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Emily Kam's Portfolio" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Emily Kam</title>
+
+    <!-- link to hamburger menu-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="icon" type="image/png" sizes="32x32" href="favicon2/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon2/favicon-96x96.png">
@@ -12,44 +17,56 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
-    <link href="theme_light.css" type="text/css" rel="stylesheet" />
+    <!-- <link href="theme_light.css" type="text/css" rel="stylesheet" /> -->
+    <link href="theme_green.css" type="text/css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+ 
   </head>
 
-  <body id="index">
+  <body id="about">
+
+    <script src="scripts.js" type="text/javascript"></script>
+
     <header id="header_id">
       <div class="title-nav">
-        <div>
-          <h1><a href="index.html">Emily Kam</a></h1>
-        </div>
-        <nav>
-          <ul>
-            <li>
-              <a href="about.html">about</a>
-            </li>
-            <li>
-              <a href="index.html">projects</a>
-            </li>
-            <li>
-              <a href="https://www.behance.net/emilykam1" target="_blank">graphics</a>
-            </li>
-            <li>
-              <a href="EK-resume.pdf" target="_blank">resume</a>
-            </li>
-          </ul>
-        </nav>
-        <div>
-        </div>
-      </header>
+      <div class="name">
+        <h1><a href="index.html" id="name">Emily Kam</a></h1>
+      </div>
+      <nav class="nav">
+        <ul id="navLinks">
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a class="index" href="index.html">Work</a>
+          </li>
+          <li>
+            <a href="https://www.behance.net/emilykam1" target="_blank"
+              >Graphics</a
+            >
+          </li>
+          <li>
+            <a href="EK-resume.pdf" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
   
-    </header>
+    
     <div class="content">
 
       <div class="about">
         <div class="about_text">
           <h2> Hello! I'm Emily. </h2>
-          <p>I'm a junior at Cornell University majoring in Information Science with a minor in Creative Writing.</p>
-          <p>I'm passionate about creating, whether it be arranging music, writing stories, or more recently, web design! As a <a href="https://milstein-program.as.cornell.edu/about" target="_blank">Cornell Milstein Scholar</a> investigating the intersection of technology and humanities, I'm eager to improve my design and coding skills and learn how technological design can have social impact.</p>
+          <p>I'm a senior at Cornell University majoring in Information Science with a minor in Creative Writing.</p>
+          <p>I'm passionate about creating, whether it be arranging music, writing stories, or web design! As a <a href="https://milstein-program.as.cornell.edu/about" target="_blank">Cornell Milstein Scholar</a> investigating the intersection of technology and humanities, I'm eager to improve my design and coding skills and learn how technological design can have social impact.</p>
           <p>My current and past projects focus on improving education for students young and old, and I hope to continue to contribute in that area. I'm also a major music nerd--always looking for opportunities to beatbox or compose!</p>
           <p>You can reach me at <a href="mailto: etk48@cornell.edu">etk48@cornell.edu</a> or at one of the links below!</p>
        
@@ -58,6 +75,7 @@
           <img src="images/profile.jpg" alt="picture">
         </div>
       </div>
+    </div>
       
       <footer>
         <div class="links">
@@ -70,10 +88,10 @@
         </div>
 
         <div class="tag">
-          <p>Made by Emily Kam</p>
+          <p>&copy;2021 Made by Emily Kam</p>
         </div>
       </footer>
 
-    </div>
+
   </body>
 </html>

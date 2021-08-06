@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Emily Kam's Portfolio" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Emily Kam</title>
+
+    <!-- link to hamburger menu-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="icon" type="image/png" sizes="32x32" href="favicon2/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon2/favicon-96x96.png">
@@ -12,50 +17,62 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
-    <link href="theme_light.css" type="text/css" rel="stylesheet" />
+    <!-- <link href="theme_light.css" type="text/css" rel="stylesheet" /> -->
+    <link href="theme_green.css" type="text/css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+ 
   </head>
 
   <body>
-    <header>
-      <div class=title-nav>
-      <div>
-        <h1><a href="index.html">Emily Kam</a></h1>
+
+    <script src="scripts.js" type="text/javascript"></script>
+
+    <header id="header_id">
+      <div class="title-nav">
+      <div class="name">
+        <h1><a href="index.html" id="name">Emily Kam</a></h1>
       </div>
-      <nav>
-        <ul>
+      <nav class="nav">
+        <ul id="navLinks">
           <li>
-            <a href="about.html">about</a>
+            <a href="about.html">About</a>
           </li>
           <li>
-            <a href="index.html">projects</a>
+            <a class="index" href="index.html">Work</a>
           </li>
           <li>
-            <a href="https://www.behance.net/emilykam1" target="_blank">graphics</a>
+            <a href="https://www.behance.net/emilykam1" target="_blank"
+              >Graphics</a
+            >
           </li>
           <li>
-            <a href="EK-resume.pdf" target="_blank">resume</a>
+            <a href="EK-resume.pdf" target="_blank">Resume</a>
           </li>
         </ul>
       </nav>
-      <div>
-      </div>
-    </header>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
   
       <div class="project_page">
-        <div class="nightbite_logo" >
+        <div class="rapstudy-header" >
           <img src="images/rapstudy-banner.png" alt="rapstudy banner" />
         </div>
         <div class=gridrow>
-          <div class="quarter1">
+          <div class="quarter">
           <h2>Timeline</h2>
-          <p>April 2020 - Present</p>
+          <p>October 2020 - April 2021</p>
         </div>
-        <div class="quarter1">
+        <div class="quarter">
           <h2>My Role</h2>
           <p>UX Designer</p>
         </div>
-        <div class="quarter1">
+        <div class="quarter">
           <h2>Tools</h2>
           <p>Figma</p>
         </div>
@@ -66,24 +83,17 @@
           <h2> What is rapStudy?</h2>
           <p> <a href="https://rapstudy.com/" target="_blank">rapStudy</a> is a Cornell start-up dedicated to education through music. The rapStudy team is building an app that students K-8 can use to help them review and retain school content. We want to make learning fun and engaging for kids, so our product takes what students are learning in the classroom and transforms it into catchy, memorable songs.</p>
 
-          <p>I joined rapStudy as a songwriter, but soon transitioned to working as a designer and researcher. I have worked on creating a unique, supplementary game feature that allows the classroom to review all together, and have also helped build our ever-growing UI component library. Currently I am designing features for our mobile app (coming soon!).</p>
+          <p>I joined rapStudy as a songwriter, but soon transitioned to working as a designer and researcher. I have worked on creating a unique, supplementary game feature that allows the classroom to review all together, and have also helped build our ever-growing UI component library. I designed features for our mobile app (coming soon!) and set the design foundations for teachers to browse school standards on the rapStudy app.</p>
 
-          <p>Takeaways since joining:</p>
-          <ul>
-            <li>Keep things simple. Both teachers and students have a lot to do, and we want to make things easy and natural for them.
-            </li>
-            <li>Keep your goals in mind. Brainstorming can be fun and crazy creative, but it's important to root our designs in the purpose of our product: education.
-            </li>
-            <li>Talk to the users! There were many small details that we sweated over, but only the users can let us know if our design works for them.</li>
-          </ul>
+          <!-- <p>Takeaways since joining:</p>
 
-          <p>I'm grateful for both the design and interpersonal lessons and experiences I've had working with rapStudy, especially since I get to meet and interact with members from other teams, and I'm excited to continue growing with them!</p>
+          <p>I'm grateful for both the design and interpersonal lessons and experiences I've had working with rapStudy, especially since I get to meet and interact with members from other teams, and I'm excited to continue growing with them!</p> -->
 
         </div>
   
-      <div class="back">
+      <!-- <div class="back">
         <a href="index.html"><button>back to projects</button></a>
-      </div>
+      </div> -->
   
       <footer>
         <div class="links">
@@ -95,7 +105,7 @@
         </div>
   
         <div class="tag">
-          <p>Made by Emily Kam</p>
+          <p>&copy;2021 Made by Emily Kam</p>
         </div>
       </footer>
   
