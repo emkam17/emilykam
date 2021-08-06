@@ -476,14 +476,14 @@ footer {
 }
 
 /* mobile version */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   body {
     font-size: 10pt;
   }
 
   /* SCRIPTS */
   #header_id {
-    max-width: 90%;
+    max-width: 95%;
     margin: auto;
   }
 
