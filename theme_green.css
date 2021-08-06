@@ -343,7 +343,7 @@ p {
 /* about */
 .about {
   display: flex;
-  padding: 150px 100px;
+  padding: 140px 100px;
   font-size: 16px;
 }
 
@@ -445,7 +445,7 @@ p {
 /* footer */
 
 footer {
-  margin-top: 100px;
+  margin-top: 80px;
   padding: 40px 0px 40px 0px;
   background-color: #eaffe0;
 }
