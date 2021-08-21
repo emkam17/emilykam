@@ -27,7 +27,6 @@ body {
 }
 
 header {
-  /* display: flex; */
   background-color: #fdfdfd;
   width: 90%;
   padding: 0px 100px;
@@ -222,9 +221,16 @@ h1 a:link {
   z-index: -1;
 }
 
+.col:hover #ss-desktop {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1);
+  transition: 0.4s ease;
+  z-index: -1;
+}
+
 .index-messenger {
-  /* background-color: #ffc900; */
-  background-color: #ffd84b;
+  background-color: #ffde68;
 }
 
 #casestudy {
@@ -236,13 +242,13 @@ h1 a:link {
 }
 
 .index-ai {
-  background-color: #e7c9f7;
+  background-color: #98c6ff;
 }
 
 #ai-img {
   padding: 6% 0%;
-  height: 72%;
-  width: 72%;
+  height: 78%;
+  width: 78%;
   transition: 0.4s ease-in-out;
   z-index: -1;
 }
@@ -283,6 +289,18 @@ h1 a:link {
   z-index: -1;
 }
 
+.index-ss {
+  padding: 5% 0%;
+  background-color: #9ee2a7;
+}
+
+#ss-desktop {
+  height: 77%;
+  width: 77%;
+  transition: 0.4s ease-in-out;
+  z-index: -1;
+}
+
 p {
   line-height: 1.7em;
 }
@@ -312,15 +330,36 @@ p {
   margin: 0 0 6px 0;
 }
 
+.project_content a:link {
+  text-decoration: underline;
+  color: #030e1a;
+}
+
+.project_content p a:hover {
+  color: #c0995b;
+  text-decoration: underline;
+}
+
+.project_content a:visited {
+  text-decoration: underline;
+  color: #030e1a;
+}
+
+.project_content .side-padding h2 {
+  margin-top: 50px;
+}
+
+.side-padding {
+  padding: 20px 250px;
+}
+
 /* PAGES */
 
 .gridrow {
   background-color: #eaffe0;
   display: flex;
   align-content: center;
-  margin-bottom: 50px;
   padding: 0px 100px;
-  /* justify-content: right; */
 }
 
 .quarter {
@@ -354,6 +393,67 @@ p {
   border-radius: 200px;
 }
 
+/* ai leaners */
+.ai-header {
+  text-align: center;
+  padding: 140px 0px 60px 0px;
+}
+
+.ai-header img {
+  width: 45%;
+  height: 45%;
+}
+
+#gridrow-ai {
+  background-color: #d7e7fa;
+}
+
+#gridrow-ai .quarter h2 {
+  color: #488cde;
+}
+
+#content-ai h4 {
+  font-size: 16pt;
+  font-weight: 300;
+  color: #3c86e5;
+}
+
+#content-ai h4 strong {
+  font-weight: 600;
+}
+
+.ai-project1 {
+  text-align: center;
+}
+
+.ai-project1 img {
+  width: 85%;
+  height: 85%;
+}
+
+.ai-ana img {
+  width: 100%;
+  height: 100%;
+}
+
+.ai-videos {
+  text-align: center;
+}
+
+.ai-videos img {
+  width: 85%;
+  height: 85%;
+}
+
+.ai-landing {
+  text-align: center;
+}
+
+.ai-landing img {
+  width: 80%;
+  height: 80%;
+}
+
 /* rapstudy */
 .rapstudy-header {
   text-align: center;
@@ -363,6 +463,14 @@ p {
 .rapstudy-header img {
   width: 25%;
   height: 25%;
+}
+
+#gridrow-rapstudy {
+  background-color: #e0fafc;
+}
+
+#gridrow-rapstudy .quarter h2 {
+  color: #21c6d8;
 }
 
 /* dandelion */
@@ -407,39 +515,6 @@ p {
 .dan-images p {
   margin-top: 40px;
   margin-right: 20px;
-}
-
-/* nightbite */
-.nightbite_logo img {
-  justify-content: center;
-  width: 100%;
-  padding-bottom: 20px;
-}
-
-#quickstart {
-  width: 100%;
-}
-
-.nightbite {
-  margin-top: 50px;
-}
-
-.nightbite p {
-  color: #505050;
-  font-style: italic;
-  text-align: center;
-}
-
-.animate {
-  text-align: center;
-}
-
-.audio {
-  display: inline-block;
-}
-
-#level {
-  height: 298px;
 }
 
 /* footer */
