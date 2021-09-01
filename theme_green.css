@@ -75,7 +75,7 @@ nav ul li {
   line-height: 2em;
   color: #1b1b1b;
   border-left: 6px solid #18a754;
-  height: 90px;
+  height: 80px;
 }
 
 h1 {
@@ -548,6 +548,12 @@ footer {
 .tag {
   text-align: center;
   font-size: 12px;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    width: 1000px;
+  }
 }
 
 /* MOBILE VERSION */
