@@ -569,7 +569,7 @@ footer {
 
   /* SCRIPTS */
   #header_id {
-    max-width: 95%;
+    max-width: 90%;
     margin: auto;
   }
 
@@ -621,7 +621,7 @@ footer {
   }
 
   .intro {
-    padding: 110px 0px 50px 0px;
+    padding: 100px 0px 40px 0px;
   }
 
   .intro p {
@@ -631,12 +631,13 @@ footer {
     font-size: 16px;
     flex: 60%;
     border-left: 4px solid #18a754;
-    height: 160px;
+    height: 130px;
   }
 
   /* MOBILE-CONTENT */
   .content {
     margin: 0px 10px;
+    width: 94%;
   }
 
   h2 {
@@ -650,7 +651,7 @@ footer {
 
   .table {
     display: flex;
-    border-spacing: 16px 10px;
+    border-spacing: 10px 10px;
   }
 
   .row {
@@ -671,8 +672,8 @@ footer {
 
   #casestudy {
     padding: 6% 0%;
-    height: 80%;
-    width: 60%;
+    height: 40%;
+    width: 50%;
   }
 
   .index-dande {
