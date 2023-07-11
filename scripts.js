@@ -26,4 +26,8 @@ function myFunction() {
   }
 }
 
+// Fade into next page
+// document.body.getElementById("index") = 'hidden';
+
+
 // http://www.mattmorgante.com/technology/sticky-navigation-bar-javascript

@@ -19,6 +19,13 @@
     margin: 0px 0px;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
+    opacity: 1;
+    transition-duration: 0.7s;
+    transition-property: opacity;
+  }
+
+  body.fade{
+    opacity: 0;
   }
   
   #index #header_id .index,
@@ -134,7 +141,7 @@
 #work-div:hover {    
   color: #1b1b1b;
   text-decoration: none;
-  opacity: 0.7;
+  opacity: 0.75;
 }
   
   .project_page a:link {
@@ -191,41 +198,16 @@
     transition: 0.4s ease-in-out;
   }
   
-  .col:hover #casestudy {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.1);
-    transition: 0.4s ease;
-    z-index: -1;
-  }
-  
-
-  .col:hover #mless-img {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.1);
-    transition: 0.4s ease;
-    z-index: -1;
-  }
-  
-  .col:hover #ss-desktop {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.1);
-    transition: 0.4s ease;
-    z-index: -1;
-  }
-  
   .work{
     box-shadow: 0px 2px 4px rgb(223, 223, 223);
     border-radius: 5pt;
-    padding: 25px 80px;
-    margin: 20px 0px;
+    padding: 24px 80px;
+    margin: 24px 0px;
     transition: 1s ease;
   }
 
   #work-chatbot{
-    background-color: #e4f8e5;
+    background-color: #f8e7e4;
   }
 
   #work-messenger{
@@ -252,7 +234,7 @@
     z-index: -1;
   }
 
-#work-mless {
+  #work-mless {
     background-color: #efc7f6;
   }
   
@@ -466,7 +448,7 @@
   }
   
   /* MOBILE VERSION */
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     .sticky + .content {
       padding-top: 0px;
       z-index: 1;
@@ -530,68 +512,63 @@
     }
   
     .intro {
-      padding: 100px 0px 40px 0px;
+      padding: 120px 0px 40px 0px;
     }
   
     .intro p {
-      display: inline-block;
-      margin: 0px 20px 0px 20px;
-      padding-left: 14px;
-      font-size: 16px;
-      flex: 60%;
-      border-left: 4px solid #18a754;
-      height: 130px;
+      margin: 0px 38px;
+      font-size: 17px;
     }
   
     /* MOBILE-CONTENT */
     .content {
-      margin: 0px 10px;
-      width: 94%;
+      margin: 0px 18px;
+      width: 90.5%;
     }
   
     h2 {
       display: inline-block;
       font-size: 20px;
-      margin-top: 20px;
+      margin-top: 0px;
       margin-bottom: 0px;
       text-align: left;
       transition: 0.4s ease-in-out;
     }
-  
-    .table {
-      display: flex;
-      border-spacing: 10px 10px;
+
+   .work {
+    box-shadow: 0px 2px 4px rgb(223, 223, 223);
+    border-radius: 5pt;
+    padding: 55px 40px 30px 40px;
+    margin: 24px 0px;
+    transition: 1s ease;
     }
   
     .row {
       height: 300px;
+      display: block;
     }
   
-    .col {
-      display: flex;
-      flex-direction: column;
+    .col1 {
       width: 100%;
+      text-align: center;
     }
-  
-    .col p {
-      text-align: left;
-      margin: 10px 0px;
+
+    .col2 {
+      width: 100%;
+      margin-top: 0px;
+    }
+
+    #ai-img {
+      height: 76%;
+      width: 76%;
       transition: 0.4s ease-in-out;
+      z-index: -1;
     }
   
     #casestudy {
-      padding: 6% 0%;
-      height: 40%;
-      width: 50%;
-    }
-  
-    .index-dande {
-      padding: 6% 0%;
-    }
-  
-    #dande-desktop {
-      height: 90%;
-      width: 80%;
+      padding: 0% 0%;
+      height: 47%;
+      width: 62%;
     }
   
     /* MOBILE-ABOUT */
@@ -611,7 +588,7 @@
   
     .about_text {
       text-align: left;
-      margin: 0px 10px 0px 10px;
+      margin: 30px 10px 0px 10px;
     }
   
     /* MOBILE-PROJECT-CONTENT */
