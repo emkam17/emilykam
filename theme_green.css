@@ -62,20 +62,21 @@ nav ul li {
 
 .intro {
   background-color: #eaffe0;
-  padding: 160px 100px 100px 100px;
+  padding: 120px 100px 50px 100px;
 }
 
 .intro p {
   display: inline-block;
-  margin: 0px 90px 0px 60px;
+  margin: 0px 60px 0px 60px;
   padding-left: 34px;
+  /* padding-top: 10px; */
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   flex: 60%;
   line-height: 2em;
   color: #1b1b1b;
   border-left: 6px solid #18a754;
-  height: 80px;
+  height: 40px;
 }
 
 h1 {
