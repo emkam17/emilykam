@@ -28,8 +28,10 @@
     opacity: 0;
   }
   
-  #index #header_id .index,
-  #index #header_id .about {
+  #index #header_id .index{
+    color: #c0995b;
+  }
+  #about #header_id .header_about {
     color: #c0995b;
   }
   
