@@ -175,7 +175,8 @@
   }
   
   .row {
-    height: 200px;
+    /* height: 150%; */
+    /* height: 200px; */
     display: flex;
   }
   
@@ -202,7 +203,7 @@
     box-shadow: 0px 2px 4px rgb(223, 223, 223);
     border-radius: 5pt;
     padding: 24px 80px;
-    margin: 24px 0px;
+    margin: 30px 0px;
     transition: 1s ease;
   }
 
@@ -227,9 +228,9 @@
   }
   
   #ai-img {
-    /* padding: 6% 0%; */
     height: 74%;
     width: 74%;
+    size-adjust: relative;
     transition: 0.4s ease-in-out;
     z-index: -1;
   }
@@ -311,7 +312,7 @@
   /* PAGES */
   
   .gridrow {
-    background-color: #eaffe0;
+    /* background-color: #eaffe0; */
     display: flex;
     align-content: center;
     padding: 0px 100px;
@@ -327,7 +328,7 @@
     align-content: center;
     font-family: "Montserrate", sans-serif;
     font-size: 20px;
-    color: #18a754;
+    /* color: #18a754; */
   }
   
   .quarter p {
@@ -337,7 +338,7 @@
   /* about */
   .about {
     display: flex;
-    padding: 140px 100px;
+    padding: 140px 80px;
     font-size: 16px;
   }
   
@@ -346,6 +347,16 @@
     margin-left: 70px;
     width: 300px;
     border-radius: 200px;
+  }
+
+
+  /* chatbot */ /*please note that you borrow a lot of styling from ai below*/
+  #gridrow-chatbot {
+    background-color: #f8e7e4;
+  }
+
+  #gridrow-chatbot .quarter h2 {
+    color: #ec5552;
   }
   
   /* ai leaners */
@@ -408,7 +419,6 @@
     width: 80%;
     height: 80%;
   }
-  
 
   /* footer */
   footer {
@@ -440,15 +450,31 @@
     text-align: center;
     font-size: 12px;
   }
-  
-  @media (max-width: 1000px) {
+
+  /*Big Monitor*/
+  @media (min-width: 1900px) {
     .content {
       width: 1000px;
+    }
+    
+    #ai-img {
+      height: 54%;
+      width: 54%;
+    }
+    
+    #mless-img {
+      height: 75%;
+      width: 75%;
+    }
+    
+    #ss-desktop {
+      height: 77%;
+      width: 77%;
     }
   }
   
   /* MOBILE VERSION */
-  @media (max-width: 900px) {
+  @media (max-width: 600px) {
     .sticky + .content {
       padding-top: 0px;
       z-index: 1;
@@ -528,7 +554,7 @@
   
     h2 {
       display: inline-block;
-      font-size: 20px;
+      font-size: 18px;
       margin-top: 0px;
       margin-bottom: 0px;
       text-align: left;
@@ -544,7 +570,7 @@
     }
   
     .row {
-      height: 300px;
+      height: 260pt;
       display: block;
     }
   
@@ -559,16 +585,26 @@
     }
 
     #ai-img {
-      height: 76%;
-      width: 76%;
+      height: 100%;
+      width: 100%;
       transition: 0.4s ease-in-out;
       z-index: -1;
     }
   
     #casestudy {
       padding: 0% 0%;
-      height: 47%;
-      width: 62%;
+      height: 88%;
+      width: 88%;
+    }
+
+    #mless-img{
+      height: 105%;
+      width: 105%;
+    }
+
+    #ss-desktop{
+      height: 100%;
+      width: 100%;
     }
   
     /* MOBILE-ABOUT */
