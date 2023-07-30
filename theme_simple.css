@@ -34,6 +34,9 @@
   #about #header_id .header_about {
     color: #c0995b;
   }
+  #writing #header_id .header_writing {
+    color: #c0995b;
+  }
   
   header {
     background-color: #fdfdfd;
@@ -98,7 +101,6 @@
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
-    /* margin-top: 30px; */
     text-align: left;
     color: #1b1b1b;
     transition: 0.4s ease-in-out;
@@ -140,11 +142,11 @@
     text-decoration: none;
   }
 
-#work-div:hover {    
+  #work-div:hover {    
   color: #1b1b1b;
   text-decoration: none;
   opacity: 0.75;
-}
+  }
   
   .project_page a:link {
     color: #c0995b;
@@ -349,6 +351,42 @@
     margin-left: 70px;
     width: 300px;
     border-radius: 200px;
+  }
+
+  /* writing */
+  .writing {
+    display: flex;
+    padding: 140px 80px;
+    font-size: 16px;
+  }
+
+  .writing_text p {
+    margin: 0px 0px;
+    color:#969696;
+  }
+
+  .writing_text h1 {
+    margin: 20px 0px;
+    color:#000000;
+  }
+
+  .writing_text h2 {
+    margin: 5px 5px 0px 0px;
+  }
+
+  .writing_text a:link {
+    font-size: large;
+    /* color:#18a754; */
+    text-decoration: none;
+  }
+
+  .writing_text a:visited {
+    /* color:#18a754; */
+    text-decoration: none;
+  }
+
+  .writing_text a:hover {
+    text-decoration: underline;
   }
 
 
