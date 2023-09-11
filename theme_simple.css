@@ -260,6 +260,14 @@
     transition: 0.4s ease-in-out;
     z-index: -1;
   }
+
+  #chatbot-img{
+    height: 60%;
+    width: 60%;
+    transition: 0.4s ease-in-out;
+    z-index: -1;
+    margin: 10px 0px 0px 50px;
+  }
   
   p {
     line-height: 1.7em;
