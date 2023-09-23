@@ -622,13 +622,14 @@
    .work {
     /* box-shadow: 0px 2px 4px rgb(223, 223, 223); */
     border-radius: 5pt;
-    padding: 55px 40px 30px 40px;
-    margin: 24px 0px;
+    padding: 50px 40px 30px 40px;
+    /* margin: 0px 0px 30px 0px; */
+    height: 280px;
     transition: 1s ease;
     }
   
     .row {
-      height: 260pt;
+      height: 100pt;
       display: block;
     }
   
@@ -639,7 +640,7 @@
 
     .col2 {
       width: 100%;
-      margin-top: 0px;
+      margin-top: 14px;
     }
 
     #ai-img {
@@ -663,6 +664,10 @@
     #ss-desktop{
       height: 90%;
       width: 90%;
+    }
+
+    #work-chatbot{
+      height: 200px;
     }
   
     /* MOBILE-ABOUT */
