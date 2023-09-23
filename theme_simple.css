@@ -78,12 +78,13 @@
   
   .intro p {
     display: inline-block;
-    margin: 0px 180px 0px 180px;
+    margin: 0px 190px 0px 190px;
     font-family: "Montserrat", sans-serif;
-    font-size: 29px;
+    font-size: 28px;
     flex: 60%;
     line-height: 2em;
     color: #1b1b1b;
+    text-align: center;
   }
   
   h1 {
@@ -193,7 +194,8 @@
     float: right;
     width: 55%;
     position: relative;
-    top: 10%;
+    margin-top: 18px;
+    /* top: 20%; */
   }
   
   .col p {
@@ -204,61 +206,69 @@
   }
   
   .work{
-    box-shadow: 0px 2px 4px rgb(223, 223, 223);
+    /* box-shadow: 0px 2px 4px rgb(223, 223, 223); */
     border-radius: 5pt;
     padding: 24px 80px;
     margin: 30px 0px;
     transition: 1s ease;
   }
 
-  #work-chatbot{
+  /* #work-chatbot{
     background-color: #f8e7e4;
   }
 
   #work-messenger{
     background-color: #ffe894;
-  }
+  } */
 
   #casestudy {
-    height: 55%;
-    width: 55%;
+    height: 75%;
+    width: 75%;
     padding-left: 40px;
+    padding-top: 10px;
     transition: 0.4s ease-in-out;
     z-index: -1;
   }
   
-  #work-ai{
+  /* #work-ai{
     background-color: #c7e0ff;
-  }
+  } */
   
   #ai-img {
-    height: 74%;
-    width: 74%;
-    size-adjust: relative;
+    height: 88%;
+    width: 88%;
+    /* size-adjust: relative; */
     transition: 0.4s ease-in-out;
     z-index: -1;
   }
 
-  #work-mless {
+  /* #work-mless {
     background-color: #efc7f6;
+  } */
+  .index-mless{
+    margin-right: 44px;
   }
-  
+
   #mless-img {
-    height: 75%;
-    width: 75%;
+    height: 100%;
+    width: 100%;
     transition: 0.4s ease-in-out;
     z-index: -1;
   }
   
-  #work-ss {
+  /* #work-ss {
     background-color: #ccf3d2;
-  }
+  } */
   
   #ss-desktop {
-    height: 77%;
-    width: 77%;
+    height: 88%;
+    width: 88%;
     transition: 0.4s ease-in-out;
     z-index: -1;
+  }
+
+  .index-messenger{
+    padding-right: 10px;
   }
 
   #chatbot-img{
@@ -610,7 +620,7 @@
     }
 
    .work {
-    box-shadow: 0px 2px 4px rgb(223, 223, 223);
+    /* box-shadow: 0px 2px 4px rgb(223, 223, 223); */
     border-radius: 5pt;
     padding: 55px 40px 30px 40px;
     margin: 24px 0px;
@@ -633,26 +643,26 @@
     }
 
     #ai-img {
-      height: 100%;
-      width: 100%;
+      height: 90%;
+      width: 90%;
       transition: 0.4s ease-in-out;
       z-index: -1;
     }
   
     #casestudy {
       padding: 0% 0%;
-      height: 88%;
-      width: 88%;
+      height: 74%;
+      width: 74%;
     }
 
     #mless-img{
-      height: 105%;
-      width: 105%;
+      height: 90%;
+      width: 90%;
     }
 
     #ss-desktop{
-      height: 100%;
-      width: 100%;
+      height: 90%;
+      width: 90%;
     }
   
     /* MOBILE-ABOUT */
